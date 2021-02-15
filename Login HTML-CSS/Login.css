@@ -1,4 +1,3 @@
-/*estilo do corpo inteiro da página*/
 body{
 	margin: 0; 
 	padding: 0;
@@ -6,7 +5,6 @@ body{
 	background: #191919;
 }
 
-/*estilo do formulário*/
 form{
 	width: 300px;
 	padding: 40px;
@@ -18,13 +16,11 @@ form{
 	text-align: center;
 }
 
-/*estilo da tag h1 dentro do form*/
 form h1{
 	color: white;
 	font-weight: 500;
 }
 
-/*estilo dos campos de email e senha*/
 form input[type="email"], input[type="password"]{
 	border: 0;
 	background: none;
@@ -36,17 +32,15 @@ form input[type="email"], input[type="password"]{
 	width: 200px;
 	outline: none;
 	color: white;
-	border-radius: 16px; /*curva nas bordas dos campos*/
-	transition: 0.25s; /*tempo da expansão do campo*/
+	border-radius: 16px;
+	transition: 0.25s;
 }
 
-/*o focus é responsável pela animação ao clicar nos campos*/
 form input[type="email"]:focus, input[type="password"]:focus{
-	width: 280px; /*tamanho do botão após ser clicado*/
+	width: 280px;
 	border-color: #ffffff;
 }
 
-/*estilo do botão*/
 form input[type = "submit"]{
 	border: 0;
 	background: none;
@@ -58,10 +52,9 @@ form input[type = "submit"]{
 	outline: none;
 	color: #ffffff;
 	border-radius: 16px;
-	cursor: pointer; /*muda o ícone do cursor ao passar dentro do botão*/
+	cursor: pointer;
 }
 
-/*o hover é responsável pela mudança do botão ao se passar o cursor*/
 form input[type="submit"]:hover{
 	background: #ffffff;
 	color: #191919;
