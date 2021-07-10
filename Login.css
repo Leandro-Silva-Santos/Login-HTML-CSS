@@ -2,23 +2,24 @@ body{
 	margin: 0; 
 	padding: 0;
 	font-family: sans-serif;
-	background: #191919;
+	background: black;
 }
 
 form{
 	width: 300px;
-	padding: 40px;
+	padding: 50px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: #191919;
 	text-align: center;
+	border-radius: 10px;
 }
 
 form h1{
 	color: white;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 form input[type="email"], input[type="password"]{
@@ -39,6 +40,7 @@ form input[type="email"], input[type="password"]{
 form input[type="email"]:focus, input[type="password"]:focus{
 	width: 280px;
 	border-color: #ffffff;
+	transition: 1s;
 }
 
 form input[type = "submit"]{
@@ -58,4 +60,5 @@ form input[type = "submit"]{
 form input[type="submit"]:hover{
 	background: #ffffff;
 	color: #191919;
+	transition: 0.3s;
 }
